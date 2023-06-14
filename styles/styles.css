@@ -46,6 +46,10 @@ main {
   font-weight: 400;;
 }
 
+.text-sm{
+font-size: 10px;
+}
+
 .button{
   font-size: var(--text-font-size);
   padding: 10px 30px;
@@ -665,3 +669,15 @@ footer h5 {
 footer i {
   margin-right: 5px;
 }
+
+footer h2{
+margin: 0;
+}
+
+footer a{
+  color: var(--text-color);
+  }
+
+  footer a:hover{
+    color: var(--color-green);
+    }
