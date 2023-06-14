@@ -14,6 +14,7 @@
   --source-code-font: "Source Code Pro", monospace;
   --subtext-font-size: 16px;
   --text-font-size: 14px;
+  --text-font-size-lg: 28px;
   --hexagon-border-radius: 5px;
   --hexagox-border-size: 1px;
   --back-color: #283e69;
@@ -282,7 +283,7 @@ header .logo .logo-link::after {
 .about {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 100vh;
+  height: 80vh;
 }
 
 .about .abt-image {
@@ -314,7 +315,7 @@ header .logo .logo-link::after {
 }
 
 .heading {
-  font-size: var(--header-font-size);
+  font-size: var(--text-font-size-lg);
   font-weight: var(--font-weight-bold);
   color: var(--header-lg);
   position: relative;
@@ -329,7 +330,7 @@ header .logo .logo-link::after {
   bottom: 0;
   left: 0;
   border-radius: 34px;
-  top: 110%;
+  top: 100%;
   transform: rotate(172deg) translateX(-8px);
 }
 /* skills Section */
@@ -527,7 +528,7 @@ border-color: var(--color-green);
 /* Education */
 
 .education {
-  height: 100vh;
+  height: 80vh;
 }
 
 .education .edu-container {
