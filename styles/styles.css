@@ -599,6 +599,7 @@ header .logo .logo-link::after {
 .education .edu-container .card:hover .card-overlay {
   bottom: 0;
   height: 100%;
+  cursor: pointer;
 }
 
 .education .edu-container .card .card-overlay a {
