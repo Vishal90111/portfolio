@@ -121,13 +121,13 @@ a.button:hover:before {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
-  grid-template-areas: "a b b";
+  grid-template-areas: "nav banner banner";
 }
 
 .home header .nav-list {
   list-style-type: none;
   margin: 0;
-  grid-area: b;
+  grid-area: banner;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -138,7 +138,7 @@ a.button:hover:before {
 }
 
 header .logo {
-  grid-area: a;
+  grid-area: nav;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -817,7 +817,7 @@ footer a:hover {
   }
 
   .menu-icon {
-    grid-area: b;
+    grid-area: banner;
     display: flex !important;
     flex-direction: column;
     justify-content: center;
