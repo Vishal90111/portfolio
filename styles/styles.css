@@ -106,7 +106,7 @@ a.button:hover:before {
   min-height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 4fr;
+  /* grid-template-rows: 1fr 4fr; */
   grid-template-areas: "header header""main main";
   background-color: var(--back-color);
   font-weight: var(--vj-font-weight-bold);
@@ -120,7 +120,7 @@ a.button:hover:before {
   grid-area: header;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: auto;
+  grid-template-rows: 1fr;
   grid-template-areas: "nav banner banner";
 }
 
@@ -910,4 +910,35 @@ footer a:hover {
       opacity: 1;
     }
   }
+}
+
+
+
+button.scroll-to-top {
+  background-color: var(--back-color);
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 5%;
+  right: 3%;
+  border: 0;
+}
+
+button.scroll-to-top:hover {
+  color: var(--color-yellow);
+  transform: scale(1.2);
+}
+
+.sticky-header {
+  position: fixed;
+  height: 13%;
+  background-color: var(--back-color);
+  z-index: 9999;
+}
+
+.section-hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+  animation: fadeIn 1s linear infinite;
 }
